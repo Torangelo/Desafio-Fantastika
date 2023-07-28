@@ -1,0 +1,219 @@
+@media(min-width:201px) and (max-width: 500px){
+
+                  /* Header */
+header {
+display: flex;
+height:12vh;
+width:100%;
+}
+.Logo {
+display: flex;
+align-items: center;
+justify-content: center;
+width:46vw;
+height:12vh;
+padding-left: 4vw;
+}
+
+.LogoImg {
+height: 8vh;
+width:12vw;
+}
+
+h1 {
+font-size:3.5vh ;
+}
+
+h1:hover {
+font-size:3.5vh ;
+}
+
+.IconesHeader {
+height: 10vh;
+width: 20vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Instagram {
+Display: none;
+}
+
+.Youtube {
+display: none;
+}
+
+.Whatsapp {
+height: 6vh ;
+width: 9vw;
+margin-bottom: 2.0vh;
+}
+
+.Whatsapp:hover {
+height: 6vh ;
+width: 9vw;
+}
+
+                       /* Main */
+.PrimeiraSessao {
+/* border: solid red; */
+}
+
+h2 {
+height: 10vh;
+width: 80vw;
+font-size: 5vh;
+text-align: center;
+/* border: solid blue; */
+}
+
+h3 {
+height: 10vh;
+width:100%;
+font-size: 5vh;
+text-align: center;
+/* border: solid salmon; */
+}
+
+.PrimeiraSessao img {
+height:14vh;
+width: 18vw;
+padding-top: 1vh;
+}
+
+.SegundaSessao {
+display: flex;
+justify-content: flex-start;
+background-image: url(./M\ Segundo\ cachorro.png);
+
+}
+
+h4 {
+/* border: solid salmon; */
+font-size: 3.5vh;
+color: #3A342F;
+height:6vh ;
+width: 87vw;
+font-weight: bold;
+margin-top: 10vh;
+opacity: 1;
+
+}
+
+.SegundaSessao p {
+/* border: solid blue; */
+font-size: 2vh;
+color: #3A342F;
+width: 60vw;
+font-weight: 500;
+opacity: 1;
+}
+
+.PrimeiroBotao {
+font-size: 1.7vh;
+height: 6vh;
+width: 34vw;
+position: relative;
+bottom: 14vh;
+}
+
+.TerceiraSessao {
+background-image: url(./M\ cachorro\ 3.png);
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+}
+
+h5 {
+height: 8vh;
+width:80vw ;
+font-size: 3.5vh;
+padding-left: 4vw;
+margin-top: 10vh;
+}
+
+.TerceiraSessao p {
+width: 75vw;
+height: 20vh;
+font-size:2vh;
+margin-top: 0.2vh;
+padding-left: 2vh;
+}
+
+.SegundoBotao {
+position: relative;
+right: 26vw;
+bottom: 10vh;
+font-size: 1.7vh;
+height: 6vh;
+width: 34vw;
+margin-left: 38vw
+
+}
+
+.QuartaSessao {
+display: flex;
+}
+
+h6 {
+font-size: 2vh;
+order: 2;
+padding-bottom: 6vh;
+}
+
+h6:hover {
+font-size: 2vh;
+}
+
+.Havaianas {
+font-size: 3.5vh;
+order: 1;
+padding-left: 5vw;
+}
+
+.Americanas {
+font-size: 3.5vh;
+order: 3;
+padding-right: 5vw;
+}
+
+.QuartaSessao p:hover {
+font-size:3.5vh;
+}
+
+.SessaoSection {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

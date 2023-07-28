@@ -1,0 +1,77 @@
+<footer>
+        <section class="PrimeiraLinha">
+        <p>Atendimento</p>
+        <p>Sobre</p>
+        <p>Unidades</p>
+        </section>
+        
+        <section class="PrimeiraLista">
+        <ul style="list-style: none;">
+        <li>Chat Virtual</li>
+        <li>Whatsapp</li>
+        <li>Telefone</li>
+        <li>Email</li>
+        </ul>
+        </section>
+
+        <section class="SegundaLista">
+            <ul style="list-style: none;">
+            <li>Nosso Trabalho</li>
+            <li>Infraestrutura</li>
+            <li>Nossas Unidades</li>
+            <li>Especialistas</li>
+            </ul>
+            </section>
+
+    </footer>
+
+                  css
+
+footer {
+border: solid black;
+display: flex;
+justify-content: space-around;
+height: 42vh;
+width: 100%;
+background-color: #EB4A7B;
+}
+
+.PrimeiraLinha {
+width: 80vw;
+height: 18vh;
+color: #FFFFFF;
+font-size: 4vh;
+/* border: solid hotpink; */
+display: flex;
+align-items: flex-end;
+justify-content: space-evenly;
+font-family: 'Roboto Serif', serif;
+
+}
+
+.PrimeiraLista {
+height: 18vh;
+width: 8vw;
+color: #FFFFFF;
+font-size: 2vh;
+border: solid salmon;
+/* display: flex;
+justify-content: left;
+position: relative;
+top: 4vh;
+left: 12vw; */
+}
+
+
+
+
+não o footer
+só as ul
+coloquei uma section na footer com uma largura boa
+dentro dela coloquei 3 ul com li's
+ai usei um flex-direction column nas uls
+pra economizar código só classificar todas com mesmo nome
+Daí fica tudo certinho em coluna
+ai vc usa um display flex na section pra você deixar as uls alinhadas
+
+Order: 1 2 e 3 troca as ordens das palavras ou imagems no media

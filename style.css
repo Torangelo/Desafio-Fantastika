@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+  height: 10vh;
+  width: 100%;
+  /* border: solid khaki; */
+}
+.Logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15vw;
+  /* border: solid saddlebrown; */
+}
+
+.LogoImg{
+width: 5vw;
+height: 5vh;
+margin-left: 8vw;
+/* border: solid salmon; */
+}
+
+h1 {
+color: #FFFFFF;
+letter-spacing:  0.32px;
+opacity: 1;
+font-size:2.5vh;
+margin-left: 1vw;
+font-family: 'Roboto Serif', serif;
+}
+
+h1:hover {
+font-size:3vh;
+}
+
+header figure img {
+width: 3vw;
+height:3vh;
+}
+
+.IconesHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 6vw;
+  margin-top: 2vh;
+  width: 16vw;
+  height: 6vh;
+  /* border:solid red; */
+}
+
+.Instagram {
+  width:2.5vw ;
+  height: 3vh;
+}
+
+.Instagram:hover {
+width:3vw ;
+height:3.5vh;
+}
+.Youtube {
+width:3vw ;
+height:3vh ;
+}
+.Youtube:hover {
+width:3.5vw ;
+height:3vh ;
+}
+
+.Whatsapp {
+width:2.5vw ;
+height: 3vh;
+}
+.Whatsapp:hover {
+  width:3vw ;
+  height:3.5vh ;
+  }
+  
+                                        /* Main */
+
+.PrimeiraSessao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height:80vh;
+  /* border: solid blue; */
+  background-image: url("./Primeira\ Imagem\ main.png");
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+font-size: 6vh ;
+height: 10vh;
+width: 26vw;
+text-align: center;
+color: #FFFFFF;
+/* border: solid yellow; */
+margin-top: 12vh;
+font-family: 'Roboto Serif', serif;
+}
+
+h3 {
+  font-size: 6vh ;
+  height: 28vh;
+  width: 50vw;
+  color:#FFFFFF;
+  /* border: solid yellow; */
+  text-align: center;
+  font-family: 'Roboto Serif', serif;
+}
+
+.PrimeiraSessao img {
+height:10vh ;
+width:10vw ;
+margin-bottom: 40vh;
+}
+
+.SegundaSessao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height:80vh;
+  background-image: url(./Segunda\ Imagem\ main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h4 {
+  height: 10vh;
+  width: 28vw;
+  font-size: 6vh;
+  opacity: 1;
+  color: #3A342F;
+  margin-left: 6vw;
+  font-family: 'Roboto Serif', serif;
+}
+.SegundaSessao p {
+  font-size:3.8vh;
+  height: 24vh;
+  width:28vw ;
+  color: #3A342F;
+  margin-left: 6vw;
+  font-family: 'Roboto', sans-serif;
+}
+.PrimeiroBotao{
+margin-left: 6vw;
+margin-top: 6vh;
+font-size: 3vh;
+width: 14vw ;
+height:8vh;
+border-radius: 8vh;
+color: #F4F2F3;
+background-color:#3A342F;
+border: none;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+.PrimeiroBotao:hover {
+background:#F4F2F3;
+color:#3A342F;
+}
+
+.TerceiraSessao {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content:center ;
+  width: 100%;
+  height:80vh;
+  background-image: url(./Terceira\ imagem\ main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+h5 {
+  height: 14vh;
+  width: 30vw;
+  font-size: 7vh;
+  color: #FFFFFF;
+  /* border: solid orange; */
+  margin-right:17vw;
+  font-family: 'Roboto Serif', serif;
+}
+
+.TerceiraSessao p {
+  font-size:3.5vh;
+  height: 28vh;
+  width:25vw ;
+  color: #FFFFFF;
+  /* border: solid tomato; */
+  margin-right: 22vw;
+  margin-top: 6vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.SegundoBotao {
+  font-size: 3vh;
+  width: 14vw ;
+  height:8vh;
+  border-radius: 8vh;
+  color: #000000;
+  background-color:#FFFFFF;
+  border: none;
+  margin-right: 33vw;
+  margin-top:2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.SegundoBotao:hover {
+  background:#FD6A9A;
+  color:#FFFFFF;
+  }
+
+.QuartaSessao {
+font-size:3.8vh;
+height: 14vh;
+width: 100%;
+display: flex;
+align-items:center;
+justify-content:center;
+justify-content: space-evenly;
+}
+
+h6 {
+color: #FD6A9A;
+font-size: 3vh;
+font-family: 'Roboto Serif', serif;
+font-style:italic;
+opacity: 1;
+}
+
+h6:hover {
+font-size: 3.5vh;
+}
+
+.QuartaSessao p {
+  color: #FD6A9A;
+}
+
+.QuartaSessao p:hover {
+font-size:5.5vh ;
+}
+
+.Havaianas {
+  color: #FD6A9A;
+  font-size: 5vh;
+  font-weight: bold
+}
+
+
+.Americanas {
+color: #FD6A9A;
+font-size: 4vh;
+font-weight:700;
+}
+
+
+                                   /* Footer  */
+
+.SessaoSection{
+border: solid black;
+height: 42vh;
+width: 100%;
+background-color: #EB4A7B;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+}
+
+ul {
+  /* border: solid blue; */
+  margin-left: 6vw;
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  height: 30vh;
+  width:20vw
+}
+
+.LiHover:hover {
+text-decoration: underline;
+}
+
+.PrimeiraPalavra {
+  font-size:4vh ;
+  font-family: 'Roboto Serif', serif;
+  margin-bottom: 6vh;
+  
+}
+.PrimeiraPalavra:hover {
+font-size:4.5vh;
+}
+
+.SegundaPalavra {
+  font-size:4vh ;
+  font-family: 'Roboto Serif', serif;
+  margin-bottom:6vh ;
+}
+
+.SegundaPalavra:hover {
+font-size:4.5vh ;
+}
+
+.TerceiraPalavra {
+  font-size:4vh ;
+  font-family: 'Roboto Serif', serif;
+  margin-bottom: 6vh;
+}
+
+.TerceiraPalavra:hover {
+font-size: 4.5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
